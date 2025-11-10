@@ -11,7 +11,7 @@ public class Cheers {
              for (int i = 0; i < word.length(); i++) {
                 char currentChar = word.charAt(i);
                               
-                    System.out.println("Give me an "+ currentChar+ ":"+ currentChar+"!"); 
+                    System.out.println("Give me an "+ currentChar+ ": "+ currentChar+"!"); 
         
             } 
             System.out.println("What does that spell?");
