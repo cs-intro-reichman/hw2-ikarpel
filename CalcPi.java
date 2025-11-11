@@ -2,8 +2,8 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    int k = Integer.parseInt(args[0]);
-		double sum = 0;
-		double div = 0;
+		double sum = 0.0;
+		double div = 1.0;
 		for (int i = 0; i < k; i++) {
 			if (i % 2 == 0) {
 				sum += 1.0/div;
