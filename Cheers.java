@@ -6,8 +6,9 @@ Great work boaz!
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	     String word = args[0];
+	     String uppercase = args[0];
              int num = Integer.parseInt(args[1]); 
+             String word = uppercase.toUpperCase();
              for (int i = 0; i < word.length(); i++) {
                 char currentChar = word.charAt(i);
                               
